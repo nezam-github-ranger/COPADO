@@ -6,7 +6,7 @@ public class AccountCaseController {
         if(caseId != Null || caseId != ''){
             caseList = [SELECT Id, AccountId, Reason, Origin FROM Case WHERE Id =: caseId];
         }
-        System.debug('caseList ==> ' + caseList);            
+        System.debug('caseList ==> ' + caseList); 
+        System.debug('caseList'); 
     }
 }
-
